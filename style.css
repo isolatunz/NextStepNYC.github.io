@@ -149,3 +149,22 @@ h2 {
         #c8d69b
     );
 }
+.hero-circle {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    background: linear-gradient(
+        135deg,
+        #3971b8,
+        #c8d69b
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-circle img {
+    width: 70%;
+    height: auto;
+}
