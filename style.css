@@ -1,58 +1,60 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f5f3ef;
-    color: #2d2d2d;
+    background-color: #f6f3eb;
+    color: #34361b;
     margin: 0;
     padding: 0;
-    line-height: 1.6;
 }
 
 main {
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 60px auto;
-    padding: 0 30px;
+    padding: 20px;
+}
+
+.hero {
+    background: #fbfcee;
+    border-radius: 30px;
+    padding: 80px 60px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 h1 {
-    font-size: 5rem;
+    font-size: 7rem;
     font-weight: 700;
-    margin-bottom: 10px;
-    color: #222;
+    color: #3971b8;
+    margin-bottom: 20px;
+    line-height: 1;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-    color: #222;
+    font-size: 2.5rem;
+    color: #34361b;
+    margin-bottom: 30px;
 }
 
 p {
     font-size: 1.1rem;
-    color: #555;
-}
-
-.hero {
-    background: white;
-    border-radius: 30px;
-    padding: 80px 50px;
-    margin-bottom: 50px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    color: #4a4a4a;
+    line-height: 1.8;
 }
 
 button {
-    background-color: #6f8f72;
+    background-color: #3971b8;
     color: white;
     border: none;
     border-radius: 50px;
-    padding: 15px 30px;
+    padding: 16px 32px;
     font-size: 1rem;
+    font-weight: 600;
     margin: 10px;
     cursor: pointer;
     transition: 0.3s;
 }
 
 button:hover {
-    transform: translateY(-3px);
+    transform: translateY(-4px);
 }
 
 .cards {
@@ -63,14 +65,20 @@ button:hover {
 }
 
 .card {
-    background: white;
+    background: #fbfcee;
+    border: 2px solid #c8d69b;
+    border-radius: 25px;
     width: 280px;
     padding: 30px;
-    border-radius: 25px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
 }
 
 .card h3 {
+    color: #3971b8;
     font-size: 1.4rem;
     margin-bottom: 10px;
 }
