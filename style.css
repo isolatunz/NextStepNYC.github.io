@@ -139,27 +139,21 @@ h2 {
     color: #555;
 }
 
-.hero-logo-circle {
-    width: 420px;
-    height: 420px;
+.hero-circle {
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(135deg, #4d8df5, #b8d89d);
     border-radius: 50%;
-    background: linear-gradient(
-        135deg,
-        #4d8df5,
-        #b8d89d
-    );
 
     display: flex;
     justify-content: center;
     align-items: center;
 
     overflow: hidden;
-
-    box-shadow: 0 15px 40px rgba(0,0,0,0.08);
 }
 
-.hero-logo-circle img {
-    width: 75%;
+.hero-circle img {
+    width: 70%;
     height: auto;
-    object-fit: contain;
+}
 }
