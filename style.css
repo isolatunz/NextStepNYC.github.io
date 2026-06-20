@@ -237,3 +237,10 @@ h2 {
 .about-page {
     padding: 30px 20px;
 }
+    
+.nav-links a {
+    font-size: .9rem;
+}
+.about-page h2 {
+    font-size: 2rem;
+}
