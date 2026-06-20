@@ -116,3 +116,32 @@ h2 {
     transform: translateY(-8px);
     transition: .3s;
 }
+.about-page {
+
+    max-width: 900px;
+
+    margin: 0 auto;
+
+}
+
+.about-page h1 {
+
+    font-size: 4rem;
+
+}
+
+.about-page h2 {
+
+    font-size: 2rem;
+
+    margin-top: 50px;
+
+}
+
+.about-page p {
+
+    line-height: 1.8;
+
+    color: #555;
+
+
