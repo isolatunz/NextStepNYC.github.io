@@ -139,11 +139,15 @@ h2 {
     color: #555;
 }
 
-.hero-circle {
-    width: 350px;
-    height: 350px;
-    background: linear-gradient(135deg, #4d8df5, #b8d89d);
+.hero-logo-circle {
+    width: 450px;
+    height: 450px;
     border-radius: 50%;
+    background: linear-gradient(
+        135deg,
+        #3971b8,
+        #c8d69b
+    );
 
     display: flex;
     justify-content: center;
@@ -152,8 +156,7 @@ h2 {
     overflow: hidden;
 }
 
-.hero-circle img {
-    width: 70%;
+.hero-logo-circle img {
+    width: 65%;
     height: auto;
-}
 }
