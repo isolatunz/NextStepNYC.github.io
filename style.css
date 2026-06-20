@@ -30,3 +30,11 @@ button {
     border-radius: 12px;
     font-size: 16px;
 }
+
+main {
+    background: white;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
