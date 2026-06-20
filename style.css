@@ -140,23 +140,12 @@ h2 {
 }
 
 .hero-logo-circle {
-    width: 450px;
-    height: 450px;
-    border-radius: 50%;
-    background: linear-gradient(
-        135deg,
-        #3971b8,
-        #c8d69b
-    );
-
+    width: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
-
-    overflow: hidden;
 }
-
 .hero-logo-circle img {
-    width: 65%;
+    width: 100%;
     height: auto;
 }
