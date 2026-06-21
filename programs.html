@@ -168,6 +168,13 @@ Explore jobs, internships, college prep and volunteer opportunities.
 function filterPrograms(category) {
 
     let cards = document.querySelectorAll('.card');
+    let buttons = document.querySelectorAll('.categories button');
+
+    buttons.forEach(button => {
+        button.classList.remove('active');
+    });
+
+    event.target.classList.add('active');
 
     cards.forEach(card => {
 
@@ -183,6 +190,6 @@ function filterPrograms(category) {
     });
 
 }
-</script>  
+</script>
 </body>
 </html>
