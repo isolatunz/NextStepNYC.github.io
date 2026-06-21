@@ -355,6 +355,10 @@ button:hover {
     .program-item {
         width: 100%;
     }
+ .categories button.active {
+    background: #3971b8;
+    color: white;
+}
 }
 .nyu-logo {
     height: 80px;
