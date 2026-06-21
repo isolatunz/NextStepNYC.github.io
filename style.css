@@ -15,7 +15,7 @@ section {
 }
 
 .small-title {
-    color: red;
+    color: #3971b8 !important; 
     font-weight: 700;
     letter-spacing: 2px;
     text-transform: uppercase;
