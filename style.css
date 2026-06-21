@@ -355,11 +355,21 @@ button:hover {
     .program-item {
         width: 100%;
     }
- .categories button.active {
+
+.nyu-logo {
+    height: 80px;
+}
+   .categories button.active {
     background: #3971b8;
     color: white;
 }
+   .categories button {
+    background: white;
+    color: #3971b8;
+    border: 1px solid #3971b8;
 }
-.nyu-logo {
-    height: 80px;
+
+.categories button.active {
+    background: #3971b8;
+    color: white;
 }
