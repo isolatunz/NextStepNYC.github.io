@@ -403,6 +403,7 @@ button:hover {
     padding: 30px;
     border-radius: 25px;
     margin: 40px 0;
+   text-align: center;
 }
 
 .support-icon {
