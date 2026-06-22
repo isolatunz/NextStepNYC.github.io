@@ -401,7 +401,7 @@ button:hover {
     background: white;
     border-radius: 20px;
     padding: 25px;
-    max-width: 450px;
+    max-width: 550px;
     margin: 40px 0;
    
     display: flex;
@@ -413,8 +413,8 @@ button:hover {
 }
 
 .support-icon {
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     flex-shrink: 0;
 }
 
