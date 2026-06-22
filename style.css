@@ -397,3 +397,16 @@ button:hover {
     display: block;
     box-shadow: 0 10px 30px rgba(0,0,0,.08);
 }
+.support-box {
+    background: #eef5ff;
+    border-left: 6px solid #3971b8;
+    padding: 30px;
+    border-radius: 25px;
+    margin: 40px 0;
+}
+
+.support-icon {
+    width: 90px;
+    display: block;
+    margin-bottom: 15px;
+}
