@@ -62,9 +62,9 @@ nav {
 .hero {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 80px;
-    min-height: 50vh;
+    align-items: flex-start;
+    padding: 40px 80px;
+    min-height: auto;
 }
 
 .hero-text {
