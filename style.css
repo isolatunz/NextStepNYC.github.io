@@ -507,15 +507,8 @@ li {
 .resource-card p {
    flex-grow: 1;
 
-}
-.ending-message{
-    text-align:center;
-    max-width:700px;
-    margin:80px auto;
-}
-
-.ending-message p{
-    font-size:1.2rem;
+.support-box{
+    margin: 60px auto;
 }
 
 .ending-message{
