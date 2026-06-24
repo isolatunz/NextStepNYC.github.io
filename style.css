@@ -488,6 +488,18 @@ li {
     height: 100%;
 }
 .back-button {
-    margin-top: 40px;
+    margin-top: 110px;
+}
+.resource-card {
+    background: white;
+    padding: 30px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+
+    display: flex;
+    flex-direction: column;
+}
+.resource-card p {
+    flex-grow: 1;
 }
 
