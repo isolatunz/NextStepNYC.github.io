@@ -507,3 +507,32 @@ li {
 .resource-card p {
    flex-grow: 1;
 }
+/* your current css */
+
+/* MOBILE FIXES FOR ANXIETY PAGE */
+@media (max-width: 768px) {
+
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .resource-card {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .support-box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+}
