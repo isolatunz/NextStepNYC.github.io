@@ -506,9 +506,7 @@ li {
 }
 .resource-card p {
    flex-grow: 1;
-}
-.support-box{
-    margin: 50px 0 80px;
+
 }
 .ending-message{
     text-align:center;
@@ -518,6 +516,23 @@ li {
 
 .ending-message p{
     font-size:1.2rem;
+}
+
+.ending-message{
+    text-align: center;
+    max-width: 700px;
+    margin: 80px auto;
+}
+
+.ending-message h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.ending-message p{
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
 }
 /* your current css */
 
