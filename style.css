@@ -428,3 +428,12 @@ button:hover {
     line-height: 1.8;
     color: #444;
 }
+ul {
+    font-size: 1.05rem;
+    line-height: 1.8;
+    margin-top: 15px;
+}
+
+li {
+    margin-bottom: 8px;
+}
