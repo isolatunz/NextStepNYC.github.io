@@ -437,3 +437,9 @@ ul {
 li {
     margin-bottom: 8px;
 }
+.section-divider {
+    border: none;
+    height: 1px;
+    background: #e5e7eb;
+    margin: 50px 0;
+}
