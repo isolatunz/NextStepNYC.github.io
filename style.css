@@ -238,6 +238,10 @@ button:hover {
     border-radius: 50px;
     font-weight: 500;
 }
+.resource-card .program-link {
+    width: fit-content;
+    align-self: flex-start;
+}
 
 .program-link:hover {
     opacity: .9;
@@ -497,4 +501,9 @@ li {
     box-shadow: 0 10px 30px rgba(0,0,0,.05);
 
    min-height: 40px;
+   display: flex;
+   flex-direction: column;
+}
+.resource-card p {
+   flex-grow: 1;
 }
