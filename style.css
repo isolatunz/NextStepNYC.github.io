@@ -517,6 +517,19 @@ li {
     max-width: 500px;
     margin: 0 auto;
 }
+.about-banner {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+.about-banner img {
+    width: 100%;
+    max-width: 1200px;
+    border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+}
 /* your current css */
 
 /* MOBILE FIXES FOR ANXIETY PAGE */
