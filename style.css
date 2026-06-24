@@ -448,3 +448,38 @@ li {
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+.resource-card {
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.05);
+    transition: .3s;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+}
+
+.resource-card h3 {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.resource-card p {
+    color: #555;
+    line-height: 1.7;
+}
+.resource-card a {
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background: #3971b8;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+.resource-card {
+    height: 100%;
+}
+
